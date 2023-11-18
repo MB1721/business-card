@@ -29,12 +29,12 @@
      inkscape:document-units="px"
      showgrid="true"
      inkscape:zoom="4.6542632"
-     inkscape:cx="38.996506"
-     inkscape:cy="69.506169"
+     inkscape:cx="32.335945"
+     inkscape:cy="69.721025"
      inkscape:window-width="1470"
      inkscape:window-height="891"
-     inkscape:window-x="0"
-     inkscape:window-y="25"
+     inkscape:window-x="215"
+     inkscape:window-y="92"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer2"
      showguides="true">
@@ -105,7 +105,6 @@
        y="679.65643"
        inkscape:label="background"
        ry="13.606991"
-       sodipodi:insensitive="true"
        inkscape:export-filename="../../../../../../../../../../../../../Desktop/Programming/programs/github/web_apps/app_boilerplate/src/assets/images/logo/mb-logo-light.png"
        inkscape:export-xdpi="576.72552"
        inkscape:export-ydpi="576.72552" />
@@ -113,7 +112,7 @@
        id="g5949-0"
        inkscape:label="logo"
        transform="matrix(1.0000092,0,0,0.99995974,-1.3263656,2.4314618)"
-       inkscape:export-filename="./mb-logo-no-background.svg"
+       inkscape:export-filename="./mb-logo-light.png"
        inkscape:export-xdpi="679.92194"
        inkscape:export-ydpi="679.92194"
        style="display:inline;fill:#f0470f;fill-opacity:1;stroke:#e87d7d;stroke-opacity:1">
