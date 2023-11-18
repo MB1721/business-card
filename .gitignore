@@ -1,0 +1,8 @@
+# bundled files
+dist/*
+
+# vs code
+.vscode
+
+# cache
+node_modules/.cache/*
