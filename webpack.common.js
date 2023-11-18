@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({ // should be first, as it is depended on by other integrated plugins
-      title: 'App Boilerplate',
+      title: 'Mason Bennett',
       filename: 'index.html',
       template: './src/assets/html-templates/index.html',
       inject: true, // inject all assets into template; Position– head or body– depends on scriptLoading
