@@ -1,0 +1,23 @@
+.abstract {
+  margin-top: -1.5rem;
+  font-size: 1.5em;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.09em;
+}
+
+.name {
+  font-size: 1.5em;
+}
+
+.profession {
+  color: #F3BF99;
+  font-size: 0.8em;
+  font-weight: 400;
+}
+
+.business {
+  margin-top: 1.5rem;
+  font-size: 0.6em;
+  font-weight: 300;
+}
