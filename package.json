@@ -1,7 +1,7 @@
 {
   "name": "mason-bennett-business-card",
   "version": "1.0.0",
-  "description": "Mason Bennett's business card.",
+  "description": "Mason Bennett's business card",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
