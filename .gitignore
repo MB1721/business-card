@@ -1,12 +1,3 @@
-# bundled files
-dist/*
-
 # vs code
 .vscode
-
-# cache
-node_modules/.cache/*
-
 .DS_Store
-# Local Netlify folder
-.netlify
