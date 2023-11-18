@@ -20,8 +20,8 @@ module.exports = {
     new FaviconsWebpackPlugin({
       logo: './src/assets/images/logo/mb-logo.svg', // source image to generate icon from
       inject: true, // inject links/metadata into HtmlWebpackPlugin(s)
-      outputPath: 'assets/favicon/', // directory to output the assets relative to the webpack output dir.
-      //prefix: 'assets/favicons/', // prefix path for generated assets
+      // outputPath: 'assets/favicon/', // directory to output the assets relative to the webpack output dir.
+      prefix: 'assets/images/favicons/', // prefix path for generated assets
       // generated icon depends on the webpack mode:
       // development-> use a light favicons build.
       // production-> use a full webapp favicons build.
