@@ -1,7 +1,6 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin'); // creates an html file to inject source code into
 const MiniCssExtractPlugin = require('mini-css-extract-plugin'); // extracts css from each js file and creates a new css reference file
-const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin; // analyze bundle build structure
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 
@@ -9,13 +8,9 @@ module.exports = {
   entry: {
     index: './src/index.tsx',
   },
-  devtool: 'inline-source-map', // extract source maps and include in final bundle
-  devServer: {
-    static: './public'
-  },
   plugins: [
     new HtmlWebpackPlugin({ // should be first, as it is depended on by other integrated plugins
-      title: 'Business Card',
+      title: 'App Boilerplate',
       filename: 'index.html',
       template: './src/assets/html-templates/index.html',
       inject: true, // inject all assets into template; Position– head or body– depends on scriptLoading
@@ -23,9 +18,9 @@ module.exports = {
     }),
     new MiniCssExtractPlugin(),
     new FaviconsWebpackPlugin({
-      logo: './src/assets/images/logo/mb-logo-no-background-light.svg', // source image to generate icon from
+      logo: './src/assets/images/logo/mb-logo.svg', // source image to generate icon from
       inject: true, // inject links/metadata into HtmlWebpackPlugin(s)
-      outputPath: 'assets/', // directory to output the assets relative to the webpack output dir.
+      outputPath: 'assets/favicon/', // directory to output the assets relative to the webpack output dir.
       //prefix: 'assets/favicons/', // prefix path for generated assets
       // generated icon depends on the webpack mode:
       // development-> use a light favicons build.
@@ -33,8 +28,8 @@ module.exports = {
       mode: 'auto', 
       favicons: {
         developerURL: null, // prevent retrieving from the nearest package.json
-        background: null,
-        theme_color: null,
+        background: '#bebebeff',
+        theme_color: '#bebebeff',
         icons: { // create icons for the following:
           android: true, 
           appleIcon: true, 
@@ -45,14 +40,13 @@ module.exports = {
         }
       }
     }),
-    // new BundleAnalyzerPlugin(),
   ],
   module: {
     // rules are processed top -> bottom. Loaders within each rule are processed bottom -> top.
     rules: [ 
       {
-        test: /.css$/i,
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        test: /\.s?[ac]ss$/i,
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /.(jpg|jpeg|png|svg|gif)$/i,
