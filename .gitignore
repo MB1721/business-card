@@ -8,3 +8,5 @@ dist/*
 node_modules/.cache/*
 
 .DS_Store
+# Local Netlify folder
+.netlify
