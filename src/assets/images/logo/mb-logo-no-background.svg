@@ -27,13 +27,13 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="2.5217751"
-     inkscape:cx="-12.094655"
-     inkscape:cy="56.111269"
+     inkscape:zoom="5.1053337"
+     inkscape:cx="35.746929"
+     inkscape:cy="43.973619"
      inkscape:window-width="1470"
      inkscape:window-height="891"
      inkscape:window-x="0"
-     inkscape:window-y="37"
+     inkscape:window-y="25"
      inkscape:window-maximized="0"
      inkscape:current-layer="layer2"
      showguides="true">
@@ -55,8 +55,8 @@
     <g
        id="g5949"
        inkscape:label="logo"
-       transform="matrix(1.0000092,0,0,0.99995974,-1.3263656,2.4314618)"
-       inkscape:export-filename="./mb-logo.png"
+       transform="matrix(0.99010916,0,0,0.99995948,8.0603971,2.4316551)"
+       inkscape:export-filename="./mb-logo-no-background.png"
        inkscape:export-xdpi="679.92194"
        inkscape:export-ydpi="679.92194">
       <g
@@ -183,7 +183,7 @@
       <g
          id="g1162"
          inkscape:label="B"
-         transform="matrix(2.2540236,0,0,2.0112715,-549.76336,-277.301)"
+         transform="matrix(2.2540236,0,0,2.0112715,-548.76344,-277.301)"
          style="stroke:#dd0e0e;stroke-opacity:0.75"
          inkscape:export-filename="./mb-logo.png"
          inkscape:export-xdpi="679.92194"

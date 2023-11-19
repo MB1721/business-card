@@ -28,9 +28,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="px"
      showgrid="true"
-     inkscape:zoom="4.7497739"
-     inkscape:cx="69.371723"
-     inkscape:cy="58.213297"
+     inkscape:zoom="3.9889681"
+     inkscape:cx="64.302344"
+     inkscape:cy="55.026762"
      inkscape:window-width="1470"
      inkscape:window-height="891"
      inkscape:window-x="1920"
@@ -221,7 +221,7 @@
     <g
        id="g5949"
        inkscape:label="logo"
-       transform="matrix(1.0000092,0,0,0.99995974,-1.3263656,2.4314618)"
+       transform="matrix(0.99010896,0,0,0.99995948,8.0605874,2.4316535)"
        inkscape:export-filename="./mb-logo.png"
        inkscape:export-xdpi="679.92194"
        inkscape:export-ydpi="679.92194">
@@ -349,7 +349,7 @@
       <g
          id="g1162"
          inkscape:label="B"
-         transform="matrix(2.2540236,0,0,2.0112715,-549.76336,-277.301)"
+         transform="matrix(2.2540236,0,0,2.0112715,-548.76342,-277.301)"
          style="stroke:#dd0e0e;stroke-opacity:0.75"
          inkscape:export-filename="./mb-logo.png"
          inkscape:export-xdpi="679.92194"
