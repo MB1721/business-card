@@ -9,7 +9,7 @@ export default function Synopsis() {
     <div className="synopsis">
       <section className="about">
         <h2>About</h2>
-        <p>I am a full-stack web developer based in Pennsylvania. My passion for programming stems from a deep appreciation for systems. This passion fuels my constant pursuit of challenges, as they offer opportunities to craft innovative systems aimed at solving persistent issues or devising methodologies to address future occurrences in a sustainable manner.</p>
+        <p>I am a full-stack web developer based in Pennsylvania. My passion for programming stems from a deep appreciation for systems and constant pursuit of challenges. I enjoy opportunities to craft innovative systems aimed at solving persistent issues or devising methodologies to address future occurrences in a sustainable manner.</p>
       </section>
       <section className="values">
         <h2>My Values</h2>

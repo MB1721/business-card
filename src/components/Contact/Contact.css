@@ -40,6 +40,10 @@
   margin-left: 1em;
 }
 
+a.link {
+  text-decoration: none;
+}
+
 /* linkedIn icon */
 .linkedin {
   color: hsl(0, 0%, 100%);

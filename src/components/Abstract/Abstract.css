@@ -1,9 +1,10 @@
 .abstract {
   margin-top: -1.5rem;
   font-size: 1.5em;
+  font-family: 'RobotoSlab';
   text-align: center;
   line-height: 1.5;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.15em;
 }
 
 .name {

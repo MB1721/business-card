@@ -10,10 +10,14 @@ section {
 section h2 {
   margin-bottom: 0.4em;
   letter-spacing: 0.04em;
+  font-family: 'RobotoSlab';
+  color: hsl(200, 60%, 60%);
 }
 
 section p {
   font-weight: 300;
+  font-family: 'Times New Roman';
+  font-size: 1.1em;
 }
 
 .skills_container {

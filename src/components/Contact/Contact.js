@@ -5,7 +5,7 @@ import envelopeIco from '@images/icons/envelope.svg';
 export default function Contact() {
   return (
     <div className="contact">
-      <a className="link email">
+      <a className="link email" href="mailto:masonbennett1721@gmail.com">
         <figure className="contact-icon">
           <svg
             id="email"
@@ -52,7 +52,7 @@ export default function Contact() {
         </figure>
         <p>Email</p>
       </a>
-      <a className="link linkedin">
+      <a className="link linkedin" target="_blank" href="https://www.linkedin.com/in/mason-bennett-074856191">
         <figure className="contact-icon">
           <svg
             version="1.1"
