@@ -1,3 +1,15 @@
+@font-face {
+  font-family: 'Inter';
+  src: url('@fonts/inter/static/inter-regular.ttf');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('@fonts/inter/static/inter-light.ttf');
+  font-weight: 300;
+}
+
 .synopsis {
   margin-top: 7rem;
 }
@@ -11,12 +23,13 @@ section h2 {
   margin-bottom: 0.4em;
   letter-spacing: 0.04em;
   font-family: 'RobotoSlab';
+  font-weight: 400;
   color: hsl(200, 60%, 60%);
 }
 
 section p {
   font-weight: 300;
-  font-family: 'Times New Roman';
+  font-family: 'Inter';
   font-size: 1.1em;
 }
 
