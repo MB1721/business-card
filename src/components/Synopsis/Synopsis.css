@@ -22,23 +22,24 @@ section p {
 
 .skills_container {
   display: flex;
-  width: 85%;
   flex-flow: row wrap;
-  justify-content: start;
-  margin-top: 1.5rem;
-}
-
-.skills_item:nth-child(1) {
-  width: 5.5rem;
-  height: 5.5rem;
-  margin-left: 0;
+  justify-content: space-around;
+  gap: 1.5em;
+  width: 95%;
+  margin-top: 2rem;
 }
 
 .skills_item {
   position: relative;
-  width: 5.5rem;
-  height: 5.5rem;
-  margin: 0 1rem;
+  flex-basis: 13%;
+  border-radius: 10px;
+  padding: 6px;
+  background-color: hsl(200, 50%, 70%, 0.7);
+  transition: 0.3s background-color ease;
+}
+
+.skills_item:hover {
+  background-color: hsl(200, 50%, 70%, 1);
 }
 
 .skills_item svg {
