@@ -6,7 +6,7 @@ import Synopsis from '../Synopsis/Synopsis';
 
 export default function Summary() {
   return (
-    <main class="summary">
+    <main className="summary">
       <Abstract/>
       <Contact/>
       <Synopsis/>
