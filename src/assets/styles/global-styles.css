@@ -15,25 +15,25 @@ Style Rule Order:
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('@fonts/roboto_slab/static/RobotoSlab-Regular.ttf');
+  src: url('../fonts/roboto_slab/static/RobotoSlab-Regular.ttf');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('@fonts/roboto_slab/static/RobotoSlab-Medium.ttf');
+  src: url('../fonts/roboto_slab/static/RobotoSlab-Medium.ttf');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('@fonts/roboto_slab/static/RobotoSlab-SemiBold.ttf');
+  src: url('../fonts/roboto_slab/static/RobotoSlab-SemiBold.ttf');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'RobotoSlab';
-  src: url('@fonts/roboto_slab/static/RobotoSlab-Bold.ttf');
+  src: url('../fonts/roboto_slab/static/RobotoSlab-Bold.ttf');
   font-weight: 700;
 }
 
