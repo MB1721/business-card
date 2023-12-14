@@ -6,7 +6,7 @@ export default function Abstract() {
     <header className="abstract">
     <h1 className="name">Mason Bennett</h1>
     <h2 className="profession">Full-Stack Developer</h2>
-    <h3 className="business">MB Applications</h3>
+    {/* <h3 className="business">MB Applications</h3> */}
     </header> 
   );
 }
