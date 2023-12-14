@@ -38,7 +38,7 @@ section p {
   flex-flow: row wrap;
   justify-content: space-around;
   gap: 1.5em;
-  width: 100%;
+  width: 95%;
   margin-top: 2rem;
 }
 
