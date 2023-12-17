@@ -7,7 +7,7 @@ export default function Synopsis() {
   const skillItems = skills.keys().map(path => {
       const title = path.replace('./', '').replace('.svg', '');
       return (
-        <figure className="skills_item" key={path} title={title}>
+        <figure className="skills_item" key={path} title={title.replace('-js', '.js')}>
           <img src={skills(path)} alt={title}/>
         </figure>
       );
